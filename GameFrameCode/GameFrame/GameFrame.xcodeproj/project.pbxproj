@@ -14,6 +14,23 @@
 		AF92FCA31E813D0F00D82B9D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF92FCA11E813D0F00D82B9D /* LaunchScreen.storyboard */; };
 		AF92FCB51E816F9400D82B9D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF92FCB41E816F9400D82B9D /* ViewController.m */; };
 		AF92FCB81E8170A900D82B9D /* ArtificialIntelligence.m in Sources */ = {isa = PBXBuildFile; fileRef = AF92FCB71E8170A900D82B9D /* ArtificialIntelligence.m */; };
+		AF92FCE61E8174AF00D82B9D /* AssetsAssistant.m in Sources */ = {isa = PBXBuildFile; fileRef = AF92FCC51E8174AF00D82B9D /* AssetsAssistant.m */; };
+		AF92FCE71E8174AF00D82B9D /* AssistantController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF92FCC71E8174AF00D82B9D /* AssistantController.m */; };
+		AF92FCE81E8174AF00D82B9D /* DataBaseAssistant.m in Sources */ = {isa = PBXBuildFile; fileRef = AF92FCC91E8174AF00D82B9D /* DataBaseAssistant.m */; };
+		AF92FCE91E8174AF00D82B9D /* DelayOperationAssistant.m in Sources */ = {isa = PBXBuildFile; fileRef = AF92FCCB1E8174AF00D82B9D /* DelayOperationAssistant.m */; };
+		AF92FCEA1E8174AF00D82B9D /* DetectDeviceMotionAssistant.m in Sources */ = {isa = PBXBuildFile; fileRef = AF92FCCD1E8174AF00D82B9D /* DetectDeviceMotionAssistant.m */; };
+		AF92FCEB1E8174AF00D82B9D /* FontsAssistant.m in Sources */ = {isa = PBXBuildFile; fileRef = AF92FCCF1E8174AF00D82B9D /* FontsAssistant.m */; };
+		AF92FCEC1E8174AF00D82B9D /* GameStateAssistant.m in Sources */ = {isa = PBXBuildFile; fileRef = AF92FCD11E8174AF00D82B9D /* GameStateAssistant.m */; };
+		AF92FCED1E8174AF00D82B9D /* iCloudAssistant.m in Sources */ = {isa = PBXBuildFile; fileRef = AF92FCD31E8174AF00D82B9D /* iCloudAssistant.m */; };
+		AF92FCEE1E8174AF00D82B9D /* iPodAssistant.m in Sources */ = {isa = PBXBuildFile; fileRef = AF92FCD51E8174AF00D82B9D /* iPodAssistant.m */; };
+		AF92FCEF1E8174AF00D82B9D /* LocationAssistant.m in Sources */ = {isa = PBXBuildFile; fileRef = AF92FCD71E8174AF00D82B9D /* LocationAssistant.m */; };
+		AF92FCF01E8174AF00D82B9D /* NibAssistant.m in Sources */ = {isa = PBXBuildFile; fileRef = AF92FCD91E8174AF00D82B9D /* NibAssistant.m */; };
+		AF92FCF11E8174AF00D82B9D /* OperationsAssistant.m in Sources */ = {isa = PBXBuildFile; fileRef = AF92FCDB1E8174AF00D82B9D /* OperationsAssistant.m */; };
+		AF92FCF21E8174AF00D82B9D /* PerlinNoise.m in Sources */ = {isa = PBXBuildFile; fileRef = AF92FCDD1E8174AF00D82B9D /* PerlinNoise.m */; };
+		AF92FCF31E8174AF00D82B9D /* SoundAssitant.m in Sources */ = {isa = PBXBuildFile; fileRef = AF92FCDF1E8174AF00D82B9D /* SoundAssitant.m */; };
+		AF92FCF41E8174AF00D82B9D /* SpeechAssistant.m in Sources */ = {isa = PBXBuildFile; fileRef = AF92FCE11E8174AF00D82B9D /* SpeechAssistant.m */; };
+		AF92FCF51E8174AF00D82B9D /* TimerAssistant.m in Sources */ = {isa = PBXBuildFile; fileRef = AF92FCE31E8174AF00D82B9D /* TimerAssistant.m */; };
+		AF92FCF61E8174AF00D82B9D /* VectorsAssistant.m in Sources */ = {isa = PBXBuildFile; fileRef = AF92FCE51E8174AF00D82B9D /* VectorsAssistant.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +47,40 @@
 		AF92FCB41E816F9400D82B9D /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = VIEWCONTROLLER/ViewController.m; sourceTree = "<group>"; };
 		AF92FCB61E8170A900D82B9D /* ArtificialIntelligence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ArtificialIntelligence.h; path = AI/ArtificialIntelligence.h; sourceTree = "<group>"; };
 		AF92FCB71E8170A900D82B9D /* ArtificialIntelligence.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ArtificialIntelligence.m; path = AI/ArtificialIntelligence.m; sourceTree = "<group>"; };
+		AF92FCC41E8174AF00D82B9D /* AssetsAssistant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AssetsAssistant.h; path = COMMON/AssetsAssistant.h; sourceTree = "<group>"; };
+		AF92FCC51E8174AF00D82B9D /* AssetsAssistant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AssetsAssistant.m; path = COMMON/AssetsAssistant.m; sourceTree = "<group>"; };
+		AF92FCC61E8174AF00D82B9D /* AssistantController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AssistantController.h; path = COMMON/AssistantController.h; sourceTree = "<group>"; };
+		AF92FCC71E8174AF00D82B9D /* AssistantController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AssistantController.m; path = COMMON/AssistantController.m; sourceTree = "<group>"; };
+		AF92FCC81E8174AF00D82B9D /* DataBaseAssistant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DataBaseAssistant.h; path = COMMON/DataBaseAssistant.h; sourceTree = "<group>"; };
+		AF92FCC91E8174AF00D82B9D /* DataBaseAssistant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DataBaseAssistant.m; path = COMMON/DataBaseAssistant.m; sourceTree = "<group>"; };
+		AF92FCCA1E8174AF00D82B9D /* DelayOperationAssistant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DelayOperationAssistant.h; path = COMMON/DelayOperationAssistant.h; sourceTree = "<group>"; };
+		AF92FCCB1E8174AF00D82B9D /* DelayOperationAssistant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DelayOperationAssistant.m; path = COMMON/DelayOperationAssistant.m; sourceTree = "<group>"; };
+		AF92FCCC1E8174AF00D82B9D /* DetectDeviceMotionAssistant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DetectDeviceMotionAssistant.h; path = COMMON/DetectDeviceMotionAssistant.h; sourceTree = "<group>"; };
+		AF92FCCD1E8174AF00D82B9D /* DetectDeviceMotionAssistant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DetectDeviceMotionAssistant.m; path = COMMON/DetectDeviceMotionAssistant.m; sourceTree = "<group>"; };
+		AF92FCCE1E8174AF00D82B9D /* FontsAssistant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FontsAssistant.h; path = COMMON/FontsAssistant.h; sourceTree = "<group>"; };
+		AF92FCCF1E8174AF00D82B9D /* FontsAssistant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FontsAssistant.m; path = COMMON/FontsAssistant.m; sourceTree = "<group>"; };
+		AF92FCD01E8174AF00D82B9D /* GameStateAssistant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameStateAssistant.h; path = COMMON/GameStateAssistant.h; sourceTree = "<group>"; };
+		AF92FCD11E8174AF00D82B9D /* GameStateAssistant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GameStateAssistant.m; path = COMMON/GameStateAssistant.m; sourceTree = "<group>"; };
+		AF92FCD21E8174AF00D82B9D /* iCloudAssistant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iCloudAssistant.h; path = COMMON/iCloudAssistant.h; sourceTree = "<group>"; };
+		AF92FCD31E8174AF00D82B9D /* iCloudAssistant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iCloudAssistant.m; path = COMMON/iCloudAssistant.m; sourceTree = "<group>"; };
+		AF92FCD41E8174AF00D82B9D /* iPodAssistant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iPodAssistant.h; path = COMMON/iPodAssistant.h; sourceTree = "<group>"; };
+		AF92FCD51E8174AF00D82B9D /* iPodAssistant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iPodAssistant.m; path = COMMON/iPodAssistant.m; sourceTree = "<group>"; };
+		AF92FCD61E8174AF00D82B9D /* LocationAssistant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LocationAssistant.h; path = COMMON/LocationAssistant.h; sourceTree = "<group>"; };
+		AF92FCD71E8174AF00D82B9D /* LocationAssistant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LocationAssistant.m; path = COMMON/LocationAssistant.m; sourceTree = "<group>"; };
+		AF92FCD81E8174AF00D82B9D /* NibAssistant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NibAssistant.h; path = COMMON/NibAssistant.h; sourceTree = "<group>"; };
+		AF92FCD91E8174AF00D82B9D /* NibAssistant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NibAssistant.m; path = COMMON/NibAssistant.m; sourceTree = "<group>"; };
+		AF92FCDA1E8174AF00D82B9D /* OperationsAssistant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OperationsAssistant.h; path = COMMON/OperationsAssistant.h; sourceTree = "<group>"; };
+		AF92FCDB1E8174AF00D82B9D /* OperationsAssistant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OperationsAssistant.m; path = COMMON/OperationsAssistant.m; sourceTree = "<group>"; };
+		AF92FCDC1E8174AF00D82B9D /* PerlinNoise.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PerlinNoise.h; path = COMMON/PerlinNoise.h; sourceTree = "<group>"; };
+		AF92FCDD1E8174AF00D82B9D /* PerlinNoise.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PerlinNoise.m; path = COMMON/PerlinNoise.m; sourceTree = "<group>"; };
+		AF92FCDE1E8174AF00D82B9D /* SoundAssitant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SoundAssitant.h; path = COMMON/SoundAssitant.h; sourceTree = "<group>"; };
+		AF92FCDF1E8174AF00D82B9D /* SoundAssitant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SoundAssitant.m; path = COMMON/SoundAssitant.m; sourceTree = "<group>"; };
+		AF92FCE01E8174AF00D82B9D /* SpeechAssistant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SpeechAssistant.h; path = COMMON/SpeechAssistant.h; sourceTree = "<group>"; };
+		AF92FCE11E8174AF00D82B9D /* SpeechAssistant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SpeechAssistant.m; path = COMMON/SpeechAssistant.m; sourceTree = "<group>"; };
+		AF92FCE21E8174AF00D82B9D /* TimerAssistant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TimerAssistant.h; path = COMMON/TimerAssistant.h; sourceTree = "<group>"; };
+		AF92FCE31E8174AF00D82B9D /* TimerAssistant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TimerAssistant.m; path = COMMON/TimerAssistant.m; sourceTree = "<group>"; };
+		AF92FCE41E8174AF00D82B9D /* VectorsAssistant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VectorsAssistant.h; path = COMMON/VectorsAssistant.h; sourceTree = "<group>"; };
+		AF92FCE51E8174AF00D82B9D /* VectorsAssistant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VectorsAssistant.m; path = COMMON/VectorsAssistant.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +172,12 @@
 		AF92FCAE1E816EB000D82B9D /* NETWORK */ = {
 			isa = PBXGroup;
 			children = (
+				AF92FCFC1E81752600D82B9D /* blue tooth */,
+				AF92FCFB1E81751E00D82B9D /* iCloud */,
+				AF92FCFA1E81750F00D82B9D /* real time connection */,
+				AF92FCF91E81750700D82B9D /* social share */,
+				AF92FCF81E8174FD00D82B9D /* air play */,
+				AF92FCF71E8174EB00D82B9D /* game center */,
 			);
 			name = NETWORK;
 			sourceTree = "<group>";
@@ -128,6 +185,40 @@
 		AF92FCAF1E816EC000D82B9D /* COMMON */ = {
 			isa = PBXGroup;
 			children = (
+				AF92FCC41E8174AF00D82B9D /* AssetsAssistant.h */,
+				AF92FCC51E8174AF00D82B9D /* AssetsAssistant.m */,
+				AF92FCC61E8174AF00D82B9D /* AssistantController.h */,
+				AF92FCC71E8174AF00D82B9D /* AssistantController.m */,
+				AF92FCC81E8174AF00D82B9D /* DataBaseAssistant.h */,
+				AF92FCC91E8174AF00D82B9D /* DataBaseAssistant.m */,
+				AF92FCCA1E8174AF00D82B9D /* DelayOperationAssistant.h */,
+				AF92FCCB1E8174AF00D82B9D /* DelayOperationAssistant.m */,
+				AF92FCCC1E8174AF00D82B9D /* DetectDeviceMotionAssistant.h */,
+				AF92FCCD1E8174AF00D82B9D /* DetectDeviceMotionAssistant.m */,
+				AF92FCCE1E8174AF00D82B9D /* FontsAssistant.h */,
+				AF92FCCF1E8174AF00D82B9D /* FontsAssistant.m */,
+				AF92FCD01E8174AF00D82B9D /* GameStateAssistant.h */,
+				AF92FCD11E8174AF00D82B9D /* GameStateAssistant.m */,
+				AF92FCD21E8174AF00D82B9D /* iCloudAssistant.h */,
+				AF92FCD31E8174AF00D82B9D /* iCloudAssistant.m */,
+				AF92FCD41E8174AF00D82B9D /* iPodAssistant.h */,
+				AF92FCD51E8174AF00D82B9D /* iPodAssistant.m */,
+				AF92FCD61E8174AF00D82B9D /* LocationAssistant.h */,
+				AF92FCD71E8174AF00D82B9D /* LocationAssistant.m */,
+				AF92FCD81E8174AF00D82B9D /* NibAssistant.h */,
+				AF92FCD91E8174AF00D82B9D /* NibAssistant.m */,
+				AF92FCDA1E8174AF00D82B9D /* OperationsAssistant.h */,
+				AF92FCDB1E8174AF00D82B9D /* OperationsAssistant.m */,
+				AF92FCDC1E8174AF00D82B9D /* PerlinNoise.h */,
+				AF92FCDD1E8174AF00D82B9D /* PerlinNoise.m */,
+				AF92FCDE1E8174AF00D82B9D /* SoundAssitant.h */,
+				AF92FCDF1E8174AF00D82B9D /* SoundAssitant.m */,
+				AF92FCE01E8174AF00D82B9D /* SpeechAssistant.h */,
+				AF92FCE11E8174AF00D82B9D /* SpeechAssistant.m */,
+				AF92FCE21E8174AF00D82B9D /* TimerAssistant.h */,
+				AF92FCE31E8174AF00D82B9D /* TimerAssistant.m */,
+				AF92FCE41E8174AF00D82B9D /* VectorsAssistant.h */,
+				AF92FCE51E8174AF00D82B9D /* VectorsAssistant.m */,
 			);
 			name = COMMON;
 			sourceTree = "<group>";
@@ -238,6 +329,48 @@
 			name = SCENES;
 			sourceTree = "<group>";
 		};
+		AF92FCF71E8174EB00D82B9D /* game center */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "game center";
+			sourceTree = "<group>";
+		};
+		AF92FCF81E8174FD00D82B9D /* air play */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "air play";
+			sourceTree = "<group>";
+		};
+		AF92FCF91E81750700D82B9D /* social share */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "social share";
+			sourceTree = "<group>";
+		};
+		AF92FCFA1E81750F00D82B9D /* real time connection */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "real time connection";
+			sourceTree = "<group>";
+		};
+		AF92FCFB1E81751E00D82B9D /* iCloud */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = iCloud;
+			sourceTree = "<group>";
+		};
+		AF92FCFC1E81752600D82B9D /* blue tooth */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "blue tooth";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -309,10 +442,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF92FCF31E8174AF00D82B9D /* SoundAssitant.m in Sources */,
+				AF92FCE61E8174AF00D82B9D /* AssetsAssistant.m in Sources */,
+				AF92FCF01E8174AF00D82B9D /* NibAssistant.m in Sources */,
 				AF92FCB51E816F9400D82B9D /* ViewController.m in Sources */,
 				AF92FC981E813D0F00D82B9D /* AppDelegate.m in Sources */,
+				AF92FCEC1E8174AF00D82B9D /* GameStateAssistant.m in Sources */,
+				AF92FCF51E8174AF00D82B9D /* TimerAssistant.m in Sources */,
+				AF92FCF41E8174AF00D82B9D /* SpeechAssistant.m in Sources */,
 				AF92FCB81E8170A900D82B9D /* ArtificialIntelligence.m in Sources */,
+				AF92FCEA1E8174AF00D82B9D /* DetectDeviceMotionAssistant.m in Sources */,
+				AF92FCEE1E8174AF00D82B9D /* iPodAssistant.m in Sources */,
+				AF92FCED1E8174AF00D82B9D /* iCloudAssistant.m in Sources */,
+				AF92FCE81E8174AF00D82B9D /* DataBaseAssistant.m in Sources */,
+				AF92FCF21E8174AF00D82B9D /* PerlinNoise.m in Sources */,
+				AF92FCE71E8174AF00D82B9D /* AssistantController.m in Sources */,
+				AF92FCE91E8174AF00D82B9D /* DelayOperationAssistant.m in Sources */,
 				AF92FC951E813D0F00D82B9D /* main.m in Sources */,
+				AF92FCEB1E8174AF00D82B9D /* FontsAssistant.m in Sources */,
+				AF92FCF11E8174AF00D82B9D /* OperationsAssistant.m in Sources */,
+				AF92FCF61E8174AF00D82B9D /* VectorsAssistant.m in Sources */,
+				AF92FCEF1E8174AF00D82B9D /* LocationAssistant.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
