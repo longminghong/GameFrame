@@ -81,6 +81,7 @@
 		AF92FCE31E8174AF00D82B9D /* TimerAssistant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TimerAssistant.m; path = COMMON/TimerAssistant.m; sourceTree = "<group>"; };
 		AF92FCE41E8174AF00D82B9D /* VectorsAssistant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VectorsAssistant.h; path = COMMON/VectorsAssistant.h; sourceTree = "<group>"; };
 		AF92FCE51E8174AF00D82B9D /* VectorsAssistant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VectorsAssistant.m; path = COMMON/VectorsAssistant.m; sourceTree = "<group>"; };
+		AF92FCFD1E8176AD00D82B9D /* MHComponentsProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MHComponentsProtocol.h; path = COMPONENTS/MHComponentsProtocol.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -318,6 +319,7 @@
 		AF92FCC21E81735C00D82B9D /* COMPONENTS */ = {
 			isa = PBXGroup;
 			children = (
+				AF92FCFD1E8176AD00D82B9D /* MHComponentsProtocol.h */,
 			);
 			name = COMPONENTS;
 			sourceTree = "<group>";
