@@ -13,6 +13,7 @@
 		AF92FCA01E813D0F00D82B9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF92FC9F1E813D0F00D82B9D /* Assets.xcassets */; };
 		AF92FCA31E813D0F00D82B9D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF92FCA11E813D0F00D82B9D /* LaunchScreen.storyboard */; };
 		AF92FCB51E816F9400D82B9D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF92FCB41E816F9400D82B9D /* ViewController.m */; };
+		AF92FCB81E8170A900D82B9D /* ArtificialIntelligence.m in Sources */ = {isa = PBXBuildFile; fileRef = AF92FCB71E8170A900D82B9D /* ArtificialIntelligence.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,8 @@
 		AF92FCAA1E816DEF00D82B9D /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		AF92FCB31E816F9400D82B9D /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = VIEWCONTROLLER/ViewController.h; sourceTree = "<group>"; };
 		AF92FCB41E816F9400D82B9D /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = VIEWCONTROLLER/ViewController.m; sourceTree = "<group>"; };
+		AF92FCB61E8170A900D82B9D /* ArtificialIntelligence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ArtificialIntelligence.h; path = AI/ArtificialIntelligence.h; sourceTree = "<group>"; };
+		AF92FCB71E8170A900D82B9D /* ArtificialIntelligence.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ArtificialIntelligence.m; path = AI/ArtificialIntelligence.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +91,8 @@
 		AF92FCAB1E816E8800D82B9D /* AI */ = {
 			isa = PBXGroup;
 			children = (
+				AF92FCB61E8170A900D82B9D /* ArtificialIntelligence.h */,
+				AF92FCB71E8170A900D82B9D /* ArtificialIntelligence.m */,
 			);
 			name = AI;
 			sourceTree = "<group>";
@@ -218,6 +223,7 @@
 			files = (
 				AF92FCB51E816F9400D82B9D /* ViewController.m in Sources */,
 				AF92FC981E813D0F00D82B9D /* AppDelegate.m in Sources */,
+				AF92FCB81E8170A900D82B9D /* ArtificialIntelligence.m in Sources */,
 				AF92FC951E813D0F00D82B9D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
