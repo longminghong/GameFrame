@@ -62,7 +62,9 @@
 		AF92FC921E813D0F00D82B9D /* GameFrame */ = {
 			isa = PBXGroup;
 			children = (
+				AF92FCC31E8173A400D82B9D /* SCENES */,
 				AF92FCAA1E816DEF00D82B9D /* PrefixHeader.pch */,
+				AF92FCC21E81735C00D82B9D /* COMPONENTS */,
 				AF92FCB21E816EEB00D82B9D /* STORYBOARD */,
 				AF92FCB11E816ED800D82B9D /* ASSETS */,
 				AF92FCB01E816ECF00D82B9D /* VIEWCONTROLLER */,
@@ -220,6 +222,20 @@
 			children = (
 			);
 			name = poison;
+			sourceTree = "<group>";
+		};
+		AF92FCC21E81735C00D82B9D /* COMPONENTS */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = COMPONENTS;
+			sourceTree = "<group>";
+		};
+		AF92FCC31E8173A400D82B9D /* SCENES */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = SCENES;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
