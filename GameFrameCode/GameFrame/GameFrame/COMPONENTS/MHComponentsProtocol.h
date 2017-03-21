@@ -8,6 +8,9 @@
 
 #import <Foundation/Foundation.h>
 
+@class GameObject;
+
 @protocol MHComponentsProtocol <NSObject>
 
+@property (weak) GameObject *gameObject;
 @end

@@ -31,6 +31,14 @@
 		AF92FCF41E8174AF00D82B9D /* SpeechAssistant.m in Sources */ = {isa = PBXBuildFile; fileRef = AF92FCE11E8174AF00D82B9D /* SpeechAssistant.m */; };
 		AF92FCF51E8174AF00D82B9D /* TimerAssistant.m in Sources */ = {isa = PBXBuildFile; fileRef = AF92FCE31E8174AF00D82B9D /* TimerAssistant.m */; };
 		AF92FCF61E8174AF00D82B9D /* VectorsAssistant.m in Sources */ = {isa = PBXBuildFile; fileRef = AF92FCE51E8174AF00D82B9D /* VectorsAssistant.m */; };
+		AF92FD0D1E81791A00D82B9D /* Ammo.m in Sources */ = {isa = PBXBuildFile; fileRef = AF92FCFF1E81791A00D82B9D /* Ammo.m */; };
+		AF92FD0E1E81791A00D82B9D /* CollectableObject.m in Sources */ = {isa = PBXBuildFile; fileRef = AF92FD011E81791A00D82B9D /* CollectableObject.m */; };
+		AF92FD0F1E81791A00D82B9D /* GameObject.m in Sources */ = {isa = PBXBuildFile; fileRef = AF92FD031E81791A00D82B9D /* GameObject.m */; };
+		AF92FD101E81791A00D82B9D /* HealthPack.m in Sources */ = {isa = PBXBuildFile; fileRef = AF92FD061E81791A00D82B9D /* HealthPack.m */; };
+		AF92FD111E81791A00D82B9D /* Monster.m in Sources */ = {isa = PBXBuildFile; fileRef = AF92FD081E81791A00D82B9D /* Monster.m */; };
+		AF92FD121E81791A00D82B9D /* MovableObject.m in Sources */ = {isa = PBXBuildFile; fileRef = AF92FD0A1E81791A00D82B9D /* MovableObject.m */; };
+		AF92FD131E81791A00D82B9D /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = AF92FD0C1E81791A00D82B9D /* Player.m */; };
+		AF92FD161E81799E00D82B9D /* Component.m in Sources */ = {isa = PBXBuildFile; fileRef = AF92FD151E81799E00D82B9D /* Component.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -82,6 +90,23 @@
 		AF92FCE41E8174AF00D82B9D /* VectorsAssistant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VectorsAssistant.h; path = COMMON/VectorsAssistant.h; sourceTree = "<group>"; };
 		AF92FCE51E8174AF00D82B9D /* VectorsAssistant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VectorsAssistant.m; path = COMMON/VectorsAssistant.m; sourceTree = "<group>"; };
 		AF92FCFD1E8176AD00D82B9D /* MHComponentsProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MHComponentsProtocol.h; path = COMPONENTS/MHComponentsProtocol.h; sourceTree = "<group>"; };
+		AF92FCFE1E81791A00D82B9D /* Ammo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Ammo.h; path = DTO/Ammo.h; sourceTree = "<group>"; };
+		AF92FCFF1E81791A00D82B9D /* Ammo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Ammo.m; path = DTO/Ammo.m; sourceTree = "<group>"; };
+		AF92FD001E81791A00D82B9D /* CollectableObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CollectableObject.h; path = DTO/CollectableObject.h; sourceTree = "<group>"; };
+		AF92FD011E81791A00D82B9D /* CollectableObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CollectableObject.m; path = DTO/CollectableObject.m; sourceTree = "<group>"; };
+		AF92FD021E81791A00D82B9D /* GameObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameObject.h; path = DTO/GameObject.h; sourceTree = "<group>"; };
+		AF92FD031E81791A00D82B9D /* GameObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GameObject.m; path = DTO/GameObject.m; sourceTree = "<group>"; };
+		AF92FD041E81791A00D82B9D /* GameObjectProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameObjectProtocol.h; path = DTO/GameObjectProtocol.h; sourceTree = "<group>"; };
+		AF92FD051E81791A00D82B9D /* HealthPack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HealthPack.h; path = DTO/HealthPack.h; sourceTree = "<group>"; };
+		AF92FD061E81791A00D82B9D /* HealthPack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HealthPack.m; path = DTO/HealthPack.m; sourceTree = "<group>"; };
+		AF92FD071E81791A00D82B9D /* Monster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Monster.h; path = DTO/Monster.h; sourceTree = "<group>"; };
+		AF92FD081E81791A00D82B9D /* Monster.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Monster.m; path = DTO/Monster.m; sourceTree = "<group>"; };
+		AF92FD091E81791A00D82B9D /* MovableObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MovableObject.h; path = DTO/MovableObject.h; sourceTree = "<group>"; };
+		AF92FD0A1E81791A00D82B9D /* MovableObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MovableObject.m; path = DTO/MovableObject.m; sourceTree = "<group>"; };
+		AF92FD0B1E81791A00D82B9D /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Player.h; path = DTO/Player.h; sourceTree = "<group>"; };
+		AF92FD0C1E81791A00D82B9D /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Player.m; path = DTO/Player.m; sourceTree = "<group>"; };
+		AF92FD141E81799E00D82B9D /* Component.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Component.h; path = COMPONENTS/Component.h; sourceTree = "<group>"; };
+		AF92FD151E81799E00D82B9D /* Component.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Component.m; path = COMPONENTS/Component.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +179,21 @@
 		AF92FCAC1E816E8E00D82B9D /* DTO */ = {
 			isa = PBXGroup;
 			children = (
+				AF92FCFE1E81791A00D82B9D /* Ammo.h */,
+				AF92FCFF1E81791A00D82B9D /* Ammo.m */,
+				AF92FD001E81791A00D82B9D /* CollectableObject.h */,
+				AF92FD011E81791A00D82B9D /* CollectableObject.m */,
+				AF92FD021E81791A00D82B9D /* GameObject.h */,
+				AF92FD031E81791A00D82B9D /* GameObject.m */,
+				AF92FD041E81791A00D82B9D /* GameObjectProtocol.h */,
+				AF92FD051E81791A00D82B9D /* HealthPack.h */,
+				AF92FD061E81791A00D82B9D /* HealthPack.m */,
+				AF92FD071E81791A00D82B9D /* Monster.h */,
+				AF92FD081E81791A00D82B9D /* Monster.m */,
+				AF92FD091E81791A00D82B9D /* MovableObject.h */,
+				AF92FD0A1E81791A00D82B9D /* MovableObject.m */,
+				AF92FD0B1E81791A00D82B9D /* Player.h */,
+				AF92FD0C1E81791A00D82B9D /* Player.m */,
 				AF92FCBD1E8171CB00D82B9D /* static */,
 				AF92FCBC1E8171A500D82B9D /* weapon */,
 				AF92FCBB1E81719400D82B9D /* health */,
@@ -319,6 +359,8 @@
 		AF92FCC21E81735C00D82B9D /* COMPONENTS */ = {
 			isa = PBXGroup;
 			children = (
+				AF92FD141E81799E00D82B9D /* Component.h */,
+				AF92FD151E81799E00D82B9D /* Component.m */,
 				AF92FCFD1E8176AD00D82B9D /* MHComponentsProtocol.h */,
 			);
 			name = COMPONENTS;
@@ -445,25 +487,33 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF92FCF31E8174AF00D82B9D /* SoundAssitant.m in Sources */,
+				AF92FD161E81799E00D82B9D /* Component.m in Sources */,
 				AF92FCE61E8174AF00D82B9D /* AssetsAssistant.m in Sources */,
+				AF92FD111E81791A00D82B9D /* Monster.m in Sources */,
 				AF92FCF01E8174AF00D82B9D /* NibAssistant.m in Sources */,
 				AF92FCB51E816F9400D82B9D /* ViewController.m in Sources */,
 				AF92FC981E813D0F00D82B9D /* AppDelegate.m in Sources */,
 				AF92FCEC1E8174AF00D82B9D /* GameStateAssistant.m in Sources */,
+				AF92FD101E81791A00D82B9D /* HealthPack.m in Sources */,
 				AF92FCF51E8174AF00D82B9D /* TimerAssistant.m in Sources */,
 				AF92FCF41E8174AF00D82B9D /* SpeechAssistant.m in Sources */,
 				AF92FCB81E8170A900D82B9D /* ArtificialIntelligence.m in Sources */,
+				AF92FD0D1E81791A00D82B9D /* Ammo.m in Sources */,
+				AF92FD131E81791A00D82B9D /* Player.m in Sources */,
 				AF92FCEA1E8174AF00D82B9D /* DetectDeviceMotionAssistant.m in Sources */,
 				AF92FCEE1E8174AF00D82B9D /* iPodAssistant.m in Sources */,
 				AF92FCED1E8174AF00D82B9D /* iCloudAssistant.m in Sources */,
 				AF92FCE81E8174AF00D82B9D /* DataBaseAssistant.m in Sources */,
 				AF92FCF21E8174AF00D82B9D /* PerlinNoise.m in Sources */,
 				AF92FCE71E8174AF00D82B9D /* AssistantController.m in Sources */,
+				AF92FD0F1E81791A00D82B9D /* GameObject.m in Sources */,
 				AF92FCE91E8174AF00D82B9D /* DelayOperationAssistant.m in Sources */,
 				AF92FC951E813D0F00D82B9D /* main.m in Sources */,
 				AF92FCEB1E8174AF00D82B9D /* FontsAssistant.m in Sources */,
 				AF92FCF11E8174AF00D82B9D /* OperationsAssistant.m in Sources */,
+				AF92FD0E1E81791A00D82B9D /* CollectableObject.m in Sources */,
 				AF92FCF61E8174AF00D82B9D /* VectorsAssistant.m in Sources */,
+				AF92FD121E81791A00D82B9D /* MovableObject.m in Sources */,
 				AF92FCEF1E8174AF00D82B9D /* LocationAssistant.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
