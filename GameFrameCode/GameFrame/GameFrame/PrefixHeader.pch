@@ -1,0 +1,42 @@
+//
+//  PrefixHeader.pch
+//  GameTem
+//
+//  Created by longminghong on 17/3/16.
+//  Copyright © 2017年 longminghong. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#define GT_UPDATE_ON_TIMER
+//#define GT_UPDATE_ON_SCREEN
+
+#define GT_DETECT_TILT // 检测设备倾斜
+
+#define DEBUG
+#define DEBUG_NSLOG_CATCH_EXCEPTION
+
+#ifdef DEBUG
+
+#define DEBUG_LEVEL1 // all debug information will log out.
+#define DEBUG_LEVEL2 // net work information data or so.
+#define DEBUG_LEVEL3 // sql operation information or so.
+#define DEBUG_LEVEL4 // system crash or so.
+
+#endif
+
+
+#ifdef DEBUG
+
+#define DLog( s, ... ) NSLog( @"< %@:(%d) > %@", [[NSString stringWithUTF8String:__FILE__] lastPathComponent], __LINE__, [NSString stringWithFormat:(s), ##__VA_ARGS__] )
+
+#else
+
+
+
+
+#endif /* PrefixHeader_pch */

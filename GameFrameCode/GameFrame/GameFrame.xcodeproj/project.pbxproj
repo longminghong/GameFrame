@@ -9,10 +9,10 @@
 /* Begin PBXBuildFile section */
 		AF92FC951E813D0F00D82B9D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AF92FC941E813D0F00D82B9D /* main.m */; };
 		AF92FC981E813D0F00D82B9D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AF92FC971E813D0F00D82B9D /* AppDelegate.m */; };
-		AF92FC9B1E813D0F00D82B9D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF92FC9A1E813D0F00D82B9D /* ViewController.m */; };
 		AF92FC9E1E813D0F00D82B9D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF92FC9C1E813D0F00D82B9D /* Main.storyboard */; };
 		AF92FCA01E813D0F00D82B9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF92FC9F1E813D0F00D82B9D /* Assets.xcassets */; };
 		AF92FCA31E813D0F00D82B9D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF92FCA11E813D0F00D82B9D /* LaunchScreen.storyboard */; };
+		AF92FCB51E816F9400D82B9D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF92FCB41E816F9400D82B9D /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +20,13 @@
 		AF92FC941E813D0F00D82B9D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AF92FC961E813D0F00D82B9D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AF92FC971E813D0F00D82B9D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		AF92FC991E813D0F00D82B9D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		AF92FC9A1E813D0F00D82B9D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		AF92FC9D1E813D0F00D82B9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AF92FC9F1E813D0F00D82B9D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AF92FCA21E813D0F00D82B9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AF92FCA41E813D0F00D82B9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF92FCAA1E816DEF00D82B9D /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		AF92FCB31E816F9400D82B9D /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = VIEWCONTROLLER/ViewController.h; sourceTree = "<group>"; };
+		AF92FCB41E816F9400D82B9D /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = VIEWCONTROLLER/ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +59,18 @@
 		AF92FC921E813D0F00D82B9D /* GameFrame */ = {
 			isa = PBXGroup;
 			children = (
+				AF92FCAA1E816DEF00D82B9D /* PrefixHeader.pch */,
+				AF92FCB21E816EEB00D82B9D /* STORYBOARD */,
+				AF92FCB11E816ED800D82B9D /* ASSETS */,
+				AF92FCB01E816ECF00D82B9D /* VIEWCONTROLLER */,
+				AF92FCAF1E816EC000D82B9D /* COMMON */,
+				AF92FCAE1E816EB000D82B9D /* NETWORK */,
+				AF92FCAD1E816E9D00D82B9D /* CATEGORY */,
+				AF92FCAC1E816E8E00D82B9D /* DTO */,
+				AF92FCAB1E816E8800D82B9D /* AI */,
 				AF92FC961E813D0F00D82B9D /* AppDelegate.h */,
 				AF92FC971E813D0F00D82B9D /* AppDelegate.m */,
-				AF92FC991E813D0F00D82B9D /* ViewController.h */,
-				AF92FC9A1E813D0F00D82B9D /* ViewController.m */,
-				AF92FC9C1E813D0F00D82B9D /* Main.storyboard */,
 				AF92FC9F1E813D0F00D82B9D /* Assets.xcassets */,
-				AF92FCA11E813D0F00D82B9D /* LaunchScreen.storyboard */,
 				AF92FCA41E813D0F00D82B9D /* Info.plist */,
 				AF92FC931E813D0F00D82B9D /* Supporting Files */,
 			);
@@ -77,6 +83,66 @@
 				AF92FC941E813D0F00D82B9D /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AF92FCAB1E816E8800D82B9D /* AI */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = AI;
+			sourceTree = "<group>";
+		};
+		AF92FCAC1E816E8E00D82B9D /* DTO */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = DTO;
+			sourceTree = "<group>";
+		};
+		AF92FCAD1E816E9D00D82B9D /* CATEGORY */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = CATEGORY;
+			sourceTree = "<group>";
+		};
+		AF92FCAE1E816EB000D82B9D /* NETWORK */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = NETWORK;
+			sourceTree = "<group>";
+		};
+		AF92FCAF1E816EC000D82B9D /* COMMON */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = COMMON;
+			sourceTree = "<group>";
+		};
+		AF92FCB01E816ECF00D82B9D /* VIEWCONTROLLER */ = {
+			isa = PBXGroup;
+			children = (
+				AF92FCB31E816F9400D82B9D /* ViewController.h */,
+				AF92FCB41E816F9400D82B9D /* ViewController.m */,
+			);
+			name = VIEWCONTROLLER;
+			sourceTree = "<group>";
+		};
+		AF92FCB11E816ED800D82B9D /* ASSETS */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ASSETS;
+			sourceTree = "<group>";
+		};
+		AF92FCB21E816EEB00D82B9D /* STORYBOARD */ = {
+			isa = PBXGroup;
+			children = (
+				AF92FC9C1E813D0F00D82B9D /* Main.storyboard */,
+				AF92FCA11E813D0F00D82B9D /* LaunchScreen.storyboard */,
+			);
+			name = STORYBOARD;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,7 +216,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF92FC9B1E813D0F00D82B9D /* ViewController.m in Sources */,
+				AF92FCB51E816F9400D82B9D /* ViewController.m in Sources */,
 				AF92FC981E813D0F00D82B9D /* AppDelegate.m in Sources */,
 				AF92FC951E813D0F00D82B9D /* main.m in Sources */,
 			);
