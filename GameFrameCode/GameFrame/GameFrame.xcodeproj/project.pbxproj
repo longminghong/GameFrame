@@ -100,6 +100,11 @@
 		AF92FCAC1E816E8E00D82B9D /* DTO */ = {
 			isa = PBXGroup;
 			children = (
+				AF92FCBD1E8171CB00D82B9D /* static */,
+				AF92FCBC1E8171A500D82B9D /* weapon */,
+				AF92FCBB1E81719400D82B9D /* health */,
+				AF92FCBA1E81718C00D82B9D /* movable */,
+				AF92FCB91E81717400D82B9D /* collectable */,
 			);
 			name = DTO;
 			sourceTree = "<group>";
@@ -148,6 +153,73 @@
 				AF92FCA11E813D0F00D82B9D /* LaunchScreen.storyboard */,
 			);
 			name = STORYBOARD;
+			sourceTree = "<group>";
+		};
+		AF92FCB91E81717400D82B9D /* collectable */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = collectable;
+			sourceTree = "<group>";
+		};
+		AF92FCBA1E81718C00D82B9D /* movable */ = {
+			isa = PBXGroup;
+			children = (
+				AF92FCBF1E81724C00D82B9D /* monstor */,
+				AF92FCBE1E81720200D82B9D /* player */,
+			);
+			name = movable;
+			sourceTree = "<group>";
+		};
+		AF92FCBB1E81719400D82B9D /* health */ = {
+			isa = PBXGroup;
+			children = (
+				AF92FCC11E81729100D82B9D /* poison */,
+				AF92FCC01E81726400D82B9D /* medical */,
+			);
+			name = health;
+			sourceTree = "<group>";
+		};
+		AF92FCBC1E8171A500D82B9D /* weapon */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = weapon;
+			sourceTree = "<group>";
+		};
+		AF92FCBD1E8171CB00D82B9D /* static */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = static;
+			sourceTree = "<group>";
+		};
+		AF92FCBE1E81720200D82B9D /* player */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = player;
+			sourceTree = "<group>";
+		};
+		AF92FCBF1E81724C00D82B9D /* monstor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = monstor;
+			sourceTree = "<group>";
+		};
+		AF92FCC01E81726400D82B9D /* medical */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = medical;
+			sourceTree = "<group>";
+		};
+		AF92FCC11E81729100D82B9D /* poison */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = poison;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
