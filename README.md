@@ -1,2 +1,13 @@
 # GameFrame
-my game frame base on Sprite Kit.
+
+最近翻了一下《iOS Gamne Development CookBook》这本书, 所以就总结了一下。于是就写了这个游戏框架。
+
+这个游戏框架基于Sprite Kit,主要还是2D的游戏开发使用。
+
+《iOS Gamne Development CookBook》这本书是一本偏科的书, 里面没有翔实的案例手把手的教读着做出一个游戏。
+
+里面的精髓在于,做一个游戏用到的很多的设备扩展支持,例如:设备的倾斜检测,设备的速度检测,地理位置获取等。
+还有一些界面上用到的效果,例如:抖动,用户输入支持,物理效果。
+在书本的最后,还有一些有关实时游戏,以及多用户联机游戏的知识。
+
+毕竟这本书是cookbook,只能教你cook,至于,你怎么cook,就是自己的手艺问题了。
